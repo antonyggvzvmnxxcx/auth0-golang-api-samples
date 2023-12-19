@@ -1,16 +1,21 @@
 # Golang Authorization for RS256-Signed Tokens
 
-This sample demonstrates how to protect endpoints in a Go API by verifying an incoming JWT access token signed by Auth0. The token must be signed with the RS256 algorithm and must be verified against your Auth0 JSON Web Key Set.
+This sample demonstrates how to protect endpoints in a Go API by verifying an incoming JWT access token signed by Auth0.
+The token must be signed with the RS256 algorithm and must be verified against your Auth0 JSON Web Key Set.
+
+Check the [Golang API Quickstart](https://auth0.com/docs/quickstart/backend/golang) to understand this sample better.
 
 ## Getting Started
 
-If you haven't already done so, [sign up](https://auth0.com/signup) for your free Auth0 account and create a new API client in the [dashboard](https://manage.auth0.com/).
+If you haven't already done so, [sign up](https://auth0.com/signup) for your free Auth0 account and create a new API
+client in the [dashboard](https://manage.auth0.com/).
 
 Clone the repo or download it from the Golang API quickstart page in Auth0's documentation.
 
 ### Add Your Credentials
 
-Rename the `.env.example` to `.env` and you will see variables for `AUTH0_DOMAIN` and `AUTH0_API_AUDIENCE`. Update these values with your credentials and save the file.
+Rename the `.env.example` to `.env` and you will see variables for `AUTH0_DOMAIN` and `AUTH0_API_AUDIENCE`.
+Update these values with your credentials and save the file.
 
 ```text
 AUTH0_DOMAIN={DOMAIN}
@@ -54,12 +59,12 @@ Execute in command line `sh exec.sh` to run the Docker in Linux, or `.\exec.ps1`
 
 Auth0 helps you to:
 
-* Add authentication with [multiple authentication sources](https://docs.auth0.com/identityproviders), either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, among others**, or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
-* Add authentication through more traditional **[username/password databases](https://docs.auth0.com/mysql-connection-tutorial)**.
-* Add support for **[linking different user accounts](https://docs.auth0.com/link-accounts)** with the same user.
-* Support for generating signed [Json Web Tokens](https://docs.auth0.com/jwt) to call your APIs and **flow the user identity** securely.
+* Add authentication with [multiple authentication sources](https://auth0.com/docs/authenticate/identity-providers), either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, among others**, or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
+* Add authentication through more traditional **[username/password databases](https://auth0.com/docs/authenticate/database-connections/custom-db/overview-custom-db-connections)**.
+* Add support for **[linking different user accounts](https://auth0.com/docs/manage-users/user-accounts/user-account-linking)** with the same user.
+* Support for generating signed [Json Web Tokens](https://auth0.com/docs/secure/tokens/json-web-tokens) to call your APIs and **flow the user identity** securely.
 * Analytics of how, when and where users are logging in.
-* Pull data from other sources and add it to the user profile, through [JavaScript rules](https://docs.auth0.com/rules).
+* Pull data from other sources and add it to the user profile, through [JavaScript rules](https://auth0.com/docs/customize/rules).
 
 ## Create a free Auth0 account
 
@@ -68,7 +73,9 @@ Auth0 helps you to:
 
 ## Issue Reporting
 
-If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
+If you have found a bug or if you have a feature request, please report them at this repository issues section.
+Please do not report security vulnerabilities on the public GitHub issue tracker.
+The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
 
 ## Author
 
